@@ -121,7 +121,7 @@
     <section>
       <h2>1. Scope of this policy</h2>
       <p>
-        This Privacy Policy explains how SparkLoop handles information when you use the SparkLoop mobile application. It covers information stored locally by the app, information processed through advertising services, optional analytics, support communications, and any optional account or cloud features that may be enabled in a production build.
+        This Privacy Policy explains how SparkLoop handles information when you use the SparkLoop mobile application. It covers information stored locally by the app, information processed through advertising services, optional analytics, diagnostics where enabled, and support communications.
       </p>
       <p>
         This policy does not replace the privacy policies of third-party services used by SparkLoop. Links to those services appear below.
@@ -203,18 +203,18 @@
     </section>
 
     <section>
-      <h2>6. Accounts and optional cloud backup</h2>
+      <h2>6. Local-only use and no user accounts</h2>
       <p>
-        SparkLoop is designed to support local play without an account. In the currently tested local-first configuration, account and cloud-backup services are not enabled.
+        SparkLoop version 1.0 does not provide user accounts, sign-in, cloud backup, or cross-device synchronization. Puzzle progress, scores, points, statistics, and app preferences are stored locally on your device.
       </p>
       <p>
-        A future or separately configured build may offer optional account and cloud-backup features using Firebase Authentication and Cloud Firestore. If those features are enabled, SparkLoop may process an account identifier, email address or authentication information, and may upload settings, scores, statistics, and progress for synchronization and restoration.
+        SparkLoop does not upload your puzzle progress, scores, points, or statistics to a SparkLoop account or cloud-backup service. The app remains usable offline, although advertising and externally hosted pages require an internet connection.
       </p>
       <p>
-        Before enabling those features in production, SparkLoop will provide an appropriate in-app notice, define cloud-data retention, and provide account and associated-data deletion controls. This policy will be updated if the production data flow changes.
+        Because SparkLoop version 1.0 does not allow users to create an account, there is no SparkLoop account to delete. You can erase the app-owned data stored locally on your device by using Settings > Reset local data. You may also remove local app data through your device settings or by uninstalling the app, subject to your device's operating-system and backup behavior.
       </p>
       <p>
-        If a production version allows users to create accounts, SparkLoop will provide both an in-app deletion path and a public web-based deletion-request path, as required for that release.
+        If a future version introduces accounts or cloud storage, this Privacy Policy and the app's privacy controls will be updated before those features are released.
       </p>
     </section>
 
@@ -272,7 +272,6 @@
         <li>Local game data remains on your device until you reset it, remove it through device controls, or uninstall the app.</li>
         <li>Support communications are retained only as reasonably needed to respond, maintain records, protect security, or meet legal obligations.</li>
         <li>Advertising and analytics providers retain information according to their own policies and your available privacy choices.</li>
-        <li>If cloud backup is enabled in a future build, its retention and deletion periods will be documented before production use.</li>
       </ul>
       <p>
         Resetting local data does not automatically delete information independently processed by Google or another provider. Use the applicable provider, consent, account, or device controls for that information.
