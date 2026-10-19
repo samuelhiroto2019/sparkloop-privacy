@@ -1,2 +1,2 @@
 # sparkloop-privacy
-Sparkloop App Privacy Policy website
+Sparkloop App Privacy Policy Website
